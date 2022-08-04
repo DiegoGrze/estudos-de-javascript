@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript externo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Externo</h1>
+    <button class="font-effect-fire-animation" onclick="acao1()">Ação 1</button>
+    <button class="font-effect-fire-animation" onclick="acao2()">Ação 2</button>
+    <button class="font-effect-fire-animation" onclick="acao3()">Ação 3</button>
+    <button class="font-effect-fire-animation" onclick="acao4()">Ação 4</button>
+    <section id="saida">
+        <p>Aqui vou registrar suas ações com os botões acima.</p>
+    </section>
+
+    <!-- utilizando abaixo um arquivo externo com o SCRIPT de Javascript, dessa mandeira o arquivo de HTML fica somente com função semântica -->
+    <script src="acoes.js"></script>
+</body>
+</html>

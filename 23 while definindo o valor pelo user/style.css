@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation');
+
+
+
+body { font: 18pt Rancho; }
+h1, h2, h3 { font-family: 'Rancho'; font-weight: normal;}
+
+
+input[type=number] { font-size: 12pt; }
+input[type=submit] { 
+    background-color: green; 
+    color: white; 
+    font-size: 12pt; 
+    padding: 5px; 
+}

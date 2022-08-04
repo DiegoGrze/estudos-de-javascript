@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Personalizado Dels</title>
+    <link rel="stylesheet" href="Modelo Estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>    
+    <section>
+        <div>
+            <p>Início: <input type="number" name="numeroini" id="numini"></p>
+            <p>Fim: <input type="number" name="numerofin" id="numfin"></p>
+            <p>Incremento: <input type="number" name="numeroinc" id="numinc"></p>
+            <input type="button" value="calcular" onclick="contar()"></input>             
+        </div>
+        <div id="contei">
+            <p id="contagem">Contando......</p>
+            <p id="res"></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; DiGrz </p> 
+    </footer>
+    <script src="Script.js"></script>
+</body>
+
+</html>
